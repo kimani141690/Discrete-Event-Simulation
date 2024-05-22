@@ -15,7 +15,7 @@ public class Simulation extends JFrame {
         data.runSimulation();
 
         SimulationTable simulationTable = new SimulationTable(data);
-        add(simulationTable.createTable(), BorderLayout.CENTER);
+        add(simulationTable.createTables(), BorderLayout.CENTER);
     }
 
     public static void main(String[] args) {
